@@ -23,13 +23,13 @@ table{
         border-radius:0.25rem;
 
         &:first-child{
-            color:var(--text-title)
+            color:var(--text-title);
         }
         &.deposit{
-            color:var(--green)
+            color:var(--green);
         }
         &.withdraw{
-            color:var(--red)
+            color:var(--red);
         }
     }
 }

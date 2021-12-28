@@ -11,7 +11,7 @@ div{
     padding:1.5rem 2rem;
     border-radius:0.25rem;
     color:var(--text-title);
-}
+
     header{
         display: flex;
         align-items:center;
@@ -26,7 +26,7 @@ div{
         font-weight:500;
         line-height:3rem;
     }
-    & .highlight-background{
+    &.highlight-background{
         background:var(--green);
         color:#fff;
     }

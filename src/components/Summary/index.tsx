@@ -19,8 +19,8 @@ return(
             </header>
             <strong> - R$300,00</strong>
         </div>
-        <div>
-            <header className="highlight-background">Total
+        <div className="highlight-background">
+            <header>Total
                 <img src={TotalImg} alt="Total" />
             </header>
             <strong>R$700,00</strong>
