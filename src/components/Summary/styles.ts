@@ -11,11 +11,12 @@ div{
     padding:1.5rem 2rem;
     border-radius:0.25rem;
     color:var(--text-title);
-
+}
     header{
         display: flex;
         align-items:center;
         justify-content:space-between;
+       
     }
 
     strong{
@@ -25,8 +26,8 @@ div{
         font-weight:500;
         line-height:3rem;
     }
-    &.highlight-background{
-        background-color:var(--green);
+    & .highlight-background{
+        background:var(--green);
         color:#fff;
     }
 }`;
