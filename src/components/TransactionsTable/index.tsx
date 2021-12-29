@@ -6,9 +6,8 @@ export function TransictionsTable() {
 
     useEffect(() => {
         api.get('transactions')
-            
-                .then(response => console.log(response.data
-                    ))
+            .then(response => console.log(response.data
+            ))
     }, [])
     return (
         <Container>
